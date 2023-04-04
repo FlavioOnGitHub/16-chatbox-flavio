@@ -49,8 +49,8 @@ header {
 }
 
 .icon-container img {
-  width: 25px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
 }
 /* end of menu */
 
@@ -97,7 +97,7 @@ a {
   border-radius: 10px 10px 10px 0;
 }
 
-.image-end {
+.photo-billing {
   width: 50%;
   align-self: flex-end;
   border-radius: 15px 15px 0 15px;
@@ -135,9 +135,9 @@ not sent the same day */
   font-size: 12px;
   align-self: center;
   text-align: center;
-  background-color: rgb(255, 201, 140);
+  background-color: rgb(247, 201, 136);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 .chat-status-time {
