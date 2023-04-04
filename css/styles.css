@@ -67,8 +67,8 @@ a {
 .chat-container {
   display: flex;
   flex-flow: column nowrap;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  padding-top: 10px;
 }
 
 .chat-bubble p {
@@ -84,25 +84,24 @@ a {
 .person-1 {
   background-color: #9c6aaa;
   align-self: flex-end;
-  margin-right: 20px;
   border-radius: 40px 40px 0 40px;
 }
 
 .person-2 {
   background-color: #c6c6c6;
-  margin-left: 20px;
 }
 
 .gif {
   width: 45%;
-  margin-left: 20px;
+  border-radius: 10px 10px 10px 0;
 }
 
 .image-end {
-  width: 60%;
+  width: 50%;
   align-self: flex-end;
   margin-right: 20px;
   margin-top: 10px;
+  border-radius: 15px 15px 0 15px;
 }
 
 /* the margins of the messages divs may vary, reason is they were 
@@ -116,7 +115,7 @@ not sent the same day */
 }
 
 .next-day-distance {
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 
 .last-message-distance {
@@ -138,6 +137,17 @@ not sent the same day */
 .chat-status-time {
   font-weight: 100;
   font-size: 13px;
+}
+
+.chat-day {
+  font-weight: 800;
+  margin-bottom: 50px;
+  font-size: 13px;
+  align-self: center;
+  text-align: center;
+  background-color: rgb(255, 201, 140);
+  padding: 10px;
+  border-radius: 10px;
 }
 /* end of main section */
 
