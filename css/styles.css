@@ -10,6 +10,7 @@ img {
   max-width: 100%;
 }
 
+/* start of menu */
 .menu {
   display: flex;
   flex-flow: row wrap;
@@ -51,15 +52,16 @@ header {
   width: 25px;
   height: 22px;
 }
+/* end of menu */
 
 
-
-
-
-
-
+/* start of main section containing the messages */
 main {
   background-color: #fedba3;
+}
+
+a {
+  color: #3366CC;
 }
 
 .chat-container {
@@ -71,11 +73,11 @@ main {
 
 .chat-bubble p {
   margin: 0;
-  padding: 15px 15px;
+  padding: 17px 17px;
 }
 
 .chat-bubble {
-  width: 50%;
+  width: 60%;
   border-radius: 40px 40px 40px 0px;
 }
 
@@ -92,10 +94,8 @@ main {
 }
 
 .gif {
-  width: 40%;
+  width: 45%;
   margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 30px;
 }
 
 .image-end {
@@ -105,15 +105,42 @@ main {
   margin-top: 10px;
 }
 
+/* the margins of the messages divs may vary, reason is they were 
+not sent the same day */
+.normal-distance {
+  margin-bottom: 30px;
+}
+
+.same-person-distance {
+  margin-bottom: 10px;
+}
+
+.next-day-distance {
+  margin-bottom: 50px;
+}
+
+.last-message-distance {
+  margin-bottom: 50px;
+}
+
 .chat-status {
   margin-top: 0;
-  text-align: center;
   font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 14px;
+  align-self: center;
+  text-align: center;
+  background-color: rgb(255, 201, 140);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .chat-status-time {
   font-weight: 100;
+  font-size: 13px;
 }
+/* end of main section */
+
 
 footer {
   position: sticky;
