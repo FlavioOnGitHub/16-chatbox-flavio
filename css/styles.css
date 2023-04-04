@@ -79,7 +79,7 @@ a {
 .chat-bubble {
   width: 60%;
   border-radius: 40px 40px 40px 0px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .person-1 {
@@ -95,19 +95,18 @@ a {
 .gif {
   width: 45%;
   border-radius: 10px 10px 10px 0;
+  margin-bottom: 40px;
 }
 
 .photo-billing {
   width: 50%;
   align-self: flex-end;
   border-radius: 15px 15px 0 15px;
+  margin-bottom: 40px
 }
 
 /* the margins of the messages divs may vary, reason is they were 
 not sent the same day */
-.normal-distance {
-  margin-bottom: 30px;
-}
 
 .same-person-distance {
   margin-bottom: 10px;
